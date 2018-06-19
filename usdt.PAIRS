@@ -1,0 +1,43 @@
+market = USDT
+start_balance = 5000
+DEFAULT_min_buy_volume = 100
+DEFAULT_initial_cost = 0
+DEFAULT_initial_cost_percentage = 3
+
+max_trading_pairs = 8
+DEFAULT_rebuy_timeout = 10
+keep_balance = 0
+keep_balance_percentage = 50
+############################## General Settings ############################
+DEFAULT_trading_enabled = true
+DEFAULT_sell_only_mode_enabled = false
+DEFAULT_dca_enabled = true
+enabled_pairs = ALL
+hidden_pairs = ALL
+orderbook_profit_calculation = true
+######################## Possible Buy Log Filtering ########################
+pair_min_listed_days = 0
+DEFAULT_max_buy_spread = 0
+DEFAULT_min_orderbook_volume_percentage = 0
+############################### Buy Settings ###############################
+DEFAULT_A_buy_strategy = EMASPREAD
+DEFAULT_A_buy_value = 0.3
+DEFAULT_A_buy_value_limit = 0
+DEFAULT_B_buy_strategy = EMAGAIN
+DEFAULT_B_buy_value = 0.3
+DEFAULT_B_buy_value_limit = 0
+DEFAULT_C_buy_strategy = RSI
+DEFAULT_C_buy_value = 100
+DEFAULT_C_buy_value_limit = 52
+DEFAULT_D_buy_strategy = LOWBB
+DEFAULT_D_buy_value = 98
+DEFAULT_D_buy_value_limit = 44
+DEFAULT_trailing_buy = 0.1
+############################### Sell Settings ##############################
+DEFAULT_A_sell_strategy = GAIN
+DEFAULT_A_sell_value = 0.2
+DEFAULT_trailing_profit = 0.1
+DEFAULT_max_profit = 0
+
+
+NEO_trading_enabled = false
