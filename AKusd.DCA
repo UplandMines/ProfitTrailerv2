@@ -1,0 +1,69 @@
+DCA_keep_balance = 0
+DCA_keep_balance_percentage = 0
+DCA_orderbook_profit_calculation = 0
+
+
+DEFAULT_DCA_max_cost = 0
+
+#----------------------------#
+DEFAULT_DCA_max_buy_times = 7
+DEFAULT_DCA_A_buy_strategy = ANDERSON
+
+DEFAULT_DCA_buy_percentage_1 = 100
+DEFAULT_DCA_buy_trigger_1 = -0.5
+DEFAULT_DCA_buy_percentage_2 = 100
+DEFAULT_DCA_buy_trigger_2 = -1
+DEFAULT_DCA_buy_percentage_3 = 100
+DEFAULT_DCA_buy_trigger_3 = -2
+DEFAULT_DCA_buy_percentage_4 = 100
+DEFAULT_DCA_buy_trigger_4 = -4
+DEFAULT_DCA_buy_percentage_5 = 100
+DEFAULT_DCA_buy_trigger_5 = -8
+DEFAULT_DCA_buy_percentage_6 = 100
+DEFAULT_DCA_buy_trigger_6 = -10
+DEFAULT_DCA_buy_percentage_7 = 100
+DEFAULT_DCA_buy_trigger_7 = -20
+
+#DEFAULT_DCA_A_buy_value = -0.55
+#DEFAULT_DCA_A_buy_value_limit = 0
+
+#DEFAULT_DCA_B_buy_strategy = RSI
+#DEFAULT_DCA_B_buy_value = 33
+#DEFAULT_DCA_B_buy_value_limit = 5
+
+
+#---------------------------------
+
+DEFAULT_DCA_trailing_buy = 0.25
+#DEFAULT_DCA_buy_percentage = 100
+
+
+#---------------------------------
+DEFAULT_DCA_A_sell_strategy = GAIN
+DEFAULT_DCA_A_sell_value = 1
+
+#DEFAULT_DCA_B_sell_strategy = RSI
+#DEFAULT_DCA_B_sell_value = 20
+
+#---------------------------------
+
+DEFAULT_DCA_trailing_profit = 0.1
+DEFAULT_DCA_max_profit = 0
+
+DEFAULT_DCA_min_buy_volume = 100
+DEFAULT_DCA_min_orderbook_volume_percentage = 150
+
+DEFAULT_DCA_ignore_sell_only_mode = false
+
+DEFAULT_DCA_max_buy_spread = 1.75
+DEFAULT_DCA_rebuy_timeout = 10
+
+DEFAULT_DCA_stop_loss_trigger = 0
+DEFAULT_DCA_stop_loss_timeout = 0
+DEFAULT_DCA_pending_order_wait_time = 0
+
+DEFAULT_DCA_buy_min_change_percentage = 0
+DEFAULT_DCA_buy_max_change_percentage = 10
+
+DEFAULT_DCA_take_profit_wait_time = 0
+DEFAULT_DCA_take_profit_percentage = 0
